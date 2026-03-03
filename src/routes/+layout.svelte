@@ -9,3 +9,13 @@
 </svelte:head>
 
 {@render children()}
+
+<style>
+	:global(body) {
+		font-family: "Sans-Serif", Arial, Helvetica, sans-serif;
+	}
+
+	:global(button) {
+		font-family: inherit;
+	}
+</style>
