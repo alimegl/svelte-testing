@@ -36,21 +36,25 @@
 
 
 <style>
+    :global(body) {
+        background-image: url('/Aurora.jpg');
+        background-size: cover;
+    }
 	h1 {
-		color: red;
+		color: rgb(69, 181, 255);
         text-align: center;
         font-size: 3em;
 	}
 
     p {
-        color: blue;
+        color: rgb(230, 230, 243);
         text-align: center;
         font-size: 1.5em;
     }
     button {
         display: block;
         margin: 0 auto;
-        background-color: chartreuse;
+        background-color: rgb(0, 191, 255);
         border: 1px solid black;
 }   
     
