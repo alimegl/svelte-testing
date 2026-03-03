@@ -1,6 +1,5 @@
 <script lang="ts">
     let clickCount = $state(0);
-    import { setAge, isAdult } from '$lib/ageCheck';
 
     function switchToCalc() {
         window.location.href = '/rechner/';
