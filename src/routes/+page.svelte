@@ -1,10 +1,7 @@
 <script lang="ts">
+    import { goto } from '$app/navigation';
+
     let clickCount = $state(0);
-
-    function switchToCalc() {
-        window.location.href = '/rechner/';
-    }
-
 </script>
 
 
@@ -24,7 +21,7 @@
         Reset clickCount
     </button>
 
-    <button onclick={switchToCalc} title="Das ist ein Button, welcher zum Rechner weiterleitet!">
+        <button onclick={() => goto('/rechner')} title="Das ist ein Button, welcher zum Rechner weiterleitet!">
         Zum Rechner
     </button>
 </div>

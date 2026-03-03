@@ -1,18 +1,15 @@
 <script lang="ts">
-    function switchToMain() {
-        window.location.href = '/';
-    }
-
- </script>
+    import { goto } from '$app/navigation';
+</script>
 
 <h1>Rechner</h1>
 
-<p1>Hier ist mein Rechner</p1>
+<p>Hier ist mein Rechner</p>
 <br>
 <br>
 
 
-<button onclick={switchToMain} title="Das ist ein Button, welcher zurück zum Hauptmenü führt!">
+<button onclick={() => goto('/')} title="Das ist ein Button, welcher zurück zum Hauptmenü führt!">
     Zum Hauptmenü
 </button>
 
@@ -31,7 +28,7 @@
         font-size: 3em;
     }
 
-    p1 {
+    p {
         color: rgb(230, 230, 243);
         font-size: 1.5em;
     }
