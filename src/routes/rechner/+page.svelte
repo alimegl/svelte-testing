@@ -34,8 +34,15 @@
     }
     button {
         margin: 0 auto;
-        background-color: rgb(0, 191, 255);
-        border: 1px solid black;
+        background: url('/aqua.svg') center / 100% 100% no-repeat;
+        border: none;
+        color: white;
+        font-weight: bold;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+        min-width: 120px;
+        min-height: 36px;
+        cursor: pointer;
+        font-size: 0.7em;
     }
 
 </style>
