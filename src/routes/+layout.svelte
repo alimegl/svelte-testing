@@ -10,7 +10,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<!-- Animation for page transitions, inspired by https://svelte.dev/repl/1c8e5b9a0c7d4f1b9e5c3a2e7c8b9f?version=3.38.2 */ -->
+<!-- Animation for page transitions, inspired by Svelte-playground*/ -->
 
 <div class="page-wrapper">
 {#key page.url.pathname}
