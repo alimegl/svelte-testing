@@ -22,6 +22,12 @@
 
 <style>
 	:global(body) {
+		background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 90vh;
+		background-image: url('/Aurora.jpg');
 		font-family: "Sans-Serif", Arial, Helvetica, sans-serif;
 	}
 

@@ -31,14 +31,7 @@
 
 
 <style>
-    :global(body) {
-        background-image: url('/Aurora.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        min-height: 90vh;
-    }
+
 	h1 {
 		color: rgb(69, 181, 255);
         text-align: center;
